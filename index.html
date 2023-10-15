@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Survey Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Customer Survey Form</h1>
+        <form action="#">
+            <div class="text-inputs">
+                <div class="user-name">
+                    <label for="user-name">Name</label>
+                    <input type="text" id="user-name">
+                </div>
+                <div class="user-email">
+                    <label for="user-email">Email</label>
+                    <input type="email" id="user-email">
+                </div>
+            </div>
+            <p>Is this first time You are using our product&services ?</p>
+            <div class="radio-inputs">
+                <input type="radio" id="first-time-yes" value="yes" name="first-time">
+                <label for="first-time-yes">Yes</label>
+                <input type="radio" id="first-time-no" value="no" name="first-time">
+                <label for="first-time-no">No</label>
+            </div>
+            <p>Would you suggest to your friends and college ?</p>
+            <div class="radio-inputs">
+                <input type="radio" value="yes" id="suggest-yes" name="suggest-to-other">
+                <label for="suggest-yes">Yes</label>
+                <input type="radio" value="no" id="suggest-no" name="suggest-to-other">
+                <label for="suggest-no">No</label>
+            </div>
+            <p>How satisfied are you with company overall ?</p>
+            <div class="radio-inputs">
+                <input type="radio" id="satisfied" value="Satisfied" name="satisfaction">
+                <label for="satisfied">Satisfied</label>
+                <input type="radio" id="undecided" value="Undecided" name="satisfaction">
+                <label for="undecided">Undecided</label>
+                <input type="radio" id="unsatisfied" value="Unsatisfied" name="satisfaction">
+                <label for="unsatisfied">Unsatisfied</label>
+            </div>
+            <p>Do you have suggestions to improve ?</p>
+            <textarea id="improvement-suggestion"></textarea>
+            <button id="submit" class="btn">Submit</button>
+        </form>
+        <small>@2018 Customer Survey Form. All Rights Reserved | Designed by <a href="#"
+                class="copyright">W3Layout</a></small>
+    </div>
+</body>
+
+</html>
